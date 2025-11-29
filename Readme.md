@@ -1,0 +1,109 @@
+📊 Bank Customer Analytics Project
+
+This project provides a comprehensive analysis of bank customer data, aiming to understand customer behavior, branch performance, and profitability by region. The dataset was sourced from Kaggle and prepared for analysis and visualization.
+
+📁 Data Structure
+
+1. CustomerData
+
+Customer_ID
+
+Age
+
+Customer_Type
+
+City
+
+Region
+
+Bank_Name
+
+Branch_ID
+
+2. TransactionData
+
+Transaction_ID
+
+Customer_ID
+
+Account_Type
+
+Total_Balance
+
+Transaction_Amount
+
+Investment_Amount
+
+Investment_Type
+
+Transaction_Date
+
+3. BankData
+
+Branch_ID
+
+City
+
+Region
+
+Firm_Revenue
+
+Expenses
+
+Profit_Margin
+
+The tables are linked through primary and foreign keys, enabling detailed analyses across customers, accounts, and branches.
+
+🔍 Analyses
+Excel Analyses
+
+Profit by Region and City
+Pivot tables and charts to examine profit distribution by region and city.
+
+Customers by Type
+Customer segmentation by type and total count per segment.
+
+Profit, Customers, and Transactions Overview
+Key KPIs: total profit, total customers, and total transactions.
+
+Regional Overview Performance
+Visual overview of branch performance by region: transaction volume, profit, and customer distribution.
+
+SQL Analyses
+
+Bank Performance Summary – Top 10 by Transaction Volume
+Identifies the 10 most active customers by total transaction volume.
+
+Bank Profit Overview – Average Profit by Region
+Displays average profit per region based on profit margins.
+
+Customer Activity – Top 5 Most Active Users
+Shows the most active customers based on transaction count.
+
+Power BI Analyses
+
+Interactive dashboard with KPIs and slicers.
+
+Utilizes DAX formulas for metrics calculations.
+
+Enables managerial insights and data-driven decision-making through visualizations.
+
+🛠 Technologies
+
+Excel – data cleaning, pivot tables, Data Model, relationships
+
+SQL – data analysis, aggregations, and top N queries
+
+Power BI – visualization, DAX, slicers, and dashboards
+
+🚀 How to Use This Project
+
+Download the dataset and prepared Excel files.
+
+Import the data into a SQL database (optional for SQL queries).
+
+Run SQL queries to generate insights.
+
+Open the Power BI file to explore the interactive dashboard.
+
+Use slicers and charts for detailed data analysis.
